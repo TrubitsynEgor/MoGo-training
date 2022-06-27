@@ -1,0 +1,177 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+	@font-face {
+		font-family: $font_name;
+		font-display: swap;
+		src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+		font-weight: #{$weight};
+		font-style: #{$style};
+	}
+}
+// null
+@import "nullstyle";
+//@import "fonts";
+//@import "header;
+//@import "ui";
+//@import "footer";
+
+//font-family: 'Kaushan Script', cursive;
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	line-height: 1.6;
+	font-weight: 400;
+}
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+.mainscr {
+	min-height: 100vh;
+	background-image: url(../img/main_back.png);
+}
+.mainscr__menu {
+}
+.mainscr__container {
+	display: flex;
+justify-content: center;
+padding: 30px 0px 0px 0px;
+
+
+
+}
+.mainscr__menuelement{
+	display: flex;
+justify-content: space-between;
+}
+.mainscr__item-menu {
+	font-size: 14px;
+	
+	margin: 0px 40px 0px 0px;
+}
+.mainscr__item-menu a {
+	color: #ffffff;
+	display: inline-block;
+}
+.mainscr__item-menu a:hover{
+color: #fce38a;
+}
+.mainscr__item-menu:hover{
+border-bottom: 3px solid #fce38a;
+
+}
+
+	
+
+
+.mainscr__logo{
+flex: 0 1 33.33%;
+font-size: 30px;
+line-height: 1.2;
+font-weight: 700;
+color: #ffffff;
+}
+.mainscr__icon{
+	padding: 0px 40px 0px 0px;
+	
+}
+
+
+.mainscr__title {
+}
+.mainscr__columns {
+	display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+
+
+}
+.mainscr__firstcol {
+	font-family: 'Kaushan Script';
+font-size: 72px;
+line-height: 1.2;
+font-weight: 400;
+color: #ffffff;
+margin: 100px 0px 30px 0px;
+
+}
+.mainscr__secondcol {
+font-size: 150px;
+line-height: 140px;
+font-weight: 700;
+color: #ffffff;
+width: 50%;
+text-align: center;
+text-transform: uppercase;
+position: relative;
+
+
+}
+.mainscr__secondcol::after{
+	content: '';
+	width: 60px;
+height: 3px;
+background-color: #ffffff;
+position: absolute;
+left: 47%;top:115%;
+
+
+	
+}
+.mainscr__btn {
+text-align: center;
+line-height: 2.5;
+font-weight: 700;
+border: 3px solid #ffffff;
+width: 160px;
+height: 40px;
+margin: 90px 0px 0px 0px;
+
+}
+.mainscr__btn a {
+	color: #ffffff;
+}
+
+.mainscr__slidebar {
+}
+.mainscr__container-slidebar {
+	display: flex;
+justify-content: space-evenly;
+align-items: flex-end;
+height: 25vh;
+
+}
+.mainscr__slide-item {
+	font-size: 24px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+position: relative;
+
+
+}
+.mainscr__slide-item span{
+	font-size: 18px;
+font-weight: 400;
+}
+.mainscr__slide-item::after{
+	content: '';
+	width: 280px;
+height: 3px;
+background-color: #ffffff;
+position: absolute;
+left: 0;
+top: -15px;
+	
+}
+
