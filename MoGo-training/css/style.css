@@ -105,11 +105,19 @@ body {
           box-sizing: border-box;
 }
 
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .no-webp .mainscr {
   background-image: url(../img/main_back.png); }
 
 .mainscr {
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
 }
 
 .mainscr__container {
@@ -119,7 +127,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 30px 0px 0px 0px;
 }
 
 .mainscr__menuelement {
@@ -129,6 +136,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 30px 0px 0px 0px;
 }
 
 .mainscr__item-menu {
@@ -157,6 +165,7 @@ body {
   line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
+  padding: 22px 0px 0px 0px;
 }
 
 .mainscr__icon {
@@ -190,7 +199,7 @@ body {
   line-height: 140px;
   font-weight: 700;
   color: #ffffff;
-  width: 50%;
+  width: 70%;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -202,7 +211,7 @@ body {
   height: 3px;
   background-color: #ffffff;
   position: absolute;
-  left: 47%;
+  left: 46.5%;
   top: 115%;
 }
 
@@ -218,15 +227,16 @@ body {
 
 .mainscr__btn a {
   color: #ffffff;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .mainscr__container-slidebar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -249,12 +259,24 @@ body {
 
 .mainscr__slide-item::after {
   content: "";
-  width: 280px;
+  width: 260px;
   height: 3px;
   background-color: #ffffff;
   position: absolute;
   left: 0;
   top: -15px;
+}
+
+@media (max-width: 967px) {
+  .mainscr__firstcol {
+    font-size: 44px;
+    margin: 60px 0px 30px 0px;
+  }
+
+  .mainscr__secondcol {
+    font-size: 74px;
+    line-height: 80px;
+  }
 }
 
 .webp .mainscr { background-image: url(../img/main_back.webp); }
