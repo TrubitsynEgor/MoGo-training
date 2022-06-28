@@ -1,5 +1,52 @@
+.header {
+	position: fixed;
+	left: 0;top: 0;
+	z-index: 1;
+	width: 100%;
+	}
+	
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.logo {
+		flex: 0 0 33.33%;
+		font-size: 30px;
+	line-height: 1.2;
+	font-weight: 700;
+	padding: 30px 0px 0px 0px;
+	}
+	.logo a {color: #ffffff;}
+	
+	.nav {
+		display: flex;
+		padding: 40px 0px 0px 0px;
+	}
+	
+	.menu {
+		display: flex;
+
+	line-height: 1.2;
+	}
 
 
 
-
-
+	.link:hover {
+		color: #fce38a;
+		border-bottom: 3px solid #fce38a;
+	}
+	.link.active {
+		color: #fce38a;
+		border-bottom: 3px solid #fce38a;
+	}
+	.burger{display: none;}
+	
+	.link {
+		display: inline-block;
+		color: #ffffff;
+		margin: 0px 40px 0px 0px;
+	}
+	.icon__link {
+		margin: 0px 0px 0px 20px;
+	}
+	
