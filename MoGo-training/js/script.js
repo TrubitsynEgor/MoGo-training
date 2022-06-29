@@ -19,3 +19,21 @@ $(document).ready(function () {
 		$('body').toggleClass('lock');
 	})
 })
+$(document).ready(function () {
+	$('.work__btn_1').click(function (event) {
+		$('.work__spoiler-text_1,.work__btn_1').toggleClass('active');
+		$('body').toggleClass('lock');
+	})
+})
+$(document).ready(function () {
+	$('.work__btn_2').click(function (event) {
+		$('.work__spoiler-text_2,.work__btn_2').toggleClass('active');
+		$('body').toggleClass('lock');
+	})
+})
+$(document).ready(function () {
+	$('.work__btn_3').click(function (event) {
+		$('.work__spoiler-text_3,.work__btn_3').toggleClass('active');
+		$('body').toggleClass('lock');
+	})
+})
