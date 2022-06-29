@@ -8,9 +8,11 @@
 	}
 	.intro__subtitle{
 		font-size: 52px;
+		
 	}
 	.intro__title{
 		font-size: 72px;
+		
 		line-height: 80px;
 	}
 	.intro__title::after{
@@ -160,12 +162,15 @@ margin: 0 auto;
 		left: 46%;
 	}
 	.intro__slider{
-		height: 42vh;
+		
+		width: 90%;
+		height: 44vh;
 		margin: 0px 0px 0px 20px;
 		
 		}
 		.slider__item{
-			text-align: center;
+		
+		font-size: 16px;
 		}
 		.slider__item::before{
 			width: 70px;
@@ -210,10 +215,12 @@ margin: 0 auto;
 			width: 90px;
 		}
 }
-@media (max-height: 670px){
+@media (max-height: 870px){
 	.intro__slider{
 		height: 19vh;
 		margin: 0px 0px 0px 20px;
 		
 		}
+	
+	
 }
