@@ -1,8 +1,10 @@
 .header {
 	position: fixed;
-	left: 0;top: 0;
+	left: 0;top: 0;right: 0;
 	z-index: 1;
 	width: 100%;
+	background-color: rgba(230,  132,129, .5);
+	
 	}
 	
 	.container {

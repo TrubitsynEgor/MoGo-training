@@ -14,6 +14,7 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 	<!-- Page encoding -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -166,10 +167,12 @@
 			<div class="design__subtitle">For all devices</div>
 			<div class="design__title">UNIQUE DESIGN</div>
 		</div>
-
-		<div class="design__img"><img src="img/design/design_img_01.png" alt="">
-			<div class="design__inner-img"><img src="img/design/design_img_02.png" alt=""></div>
+		<div class="design__images">
+			<img class="design__img" src="img/design/design_img_01.png" alt="">
+			<img class="design__inner-img" src="img/design/design_img_02.png" alt="">
 		</div>
+
+
 
 	</section>
 
@@ -192,12 +195,20 @@
 						<div class="work__spoiler-up">
 							<img src="img/icon/work_icon/work_icon_01.png" alt="" class="work__icon">
 							<button class="work__btn work__btn_1">PHOTOGRAPHY</button>
+
 						</div>
-						<p class="work__spoiler-text work__spoiler-text_1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Officiis quod hic in
-							minus,
-							praesentium ullam sit enim molestiae eaque voluptas velit temporibus dolore possimus a consectetur
-							adipisci iste iure provident corporis saepe dolorem nemo! Officia ducimus unde deleniti alias asperiores.
+						<p class="work__spoiler-text work__spoiler-text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Blanditiis aperiam, repellendus eum, obcaecati voluptates omnis error, excepturi earum quae a praesentium
+							quo est et porro vel pariatur. Repellat fugiat sunt illo repudiandae atque enim temporibus laborum. Totam
+							quam consectetur eos quas rem ad, a nihil debitis voluptatum at minus inventore ullam repudiandae
+							perspiciatis aut deserunt animi dignissimos qui error quod quae odit. Corrupti quos at dolorum cum.
+							Suscipit, consectetur. Fuga voluptatem quisquam, voluptas maiores est delectus illo ipsum sequi hic ullam.
+							Ut numquam necessitatibus ducimus accusantium eligendi quia asperiores? Necessitatibus adipisci eaque
+							placeat fuga minima vel sapiente, nisi distinctio magnam, impedit quis, nemo corporis non consequuntur
+							quisquam cupiditate illo porro libero. Doloribus suscipit dicta id voluptate maiores assumenda recusandae
+							nam tempore optio laborum amet totam voluptates earum, aperiam quod natus, voluptatibus illum qui numquam
+							ipsa non enim voluptatem provident excepturi. Voluptate minus, laudantium sit saepe obcaecati facilis fuga
+							animi unde?
 						</p>
 					</div>
 					<div class="work__spoiler-item">
@@ -231,7 +242,62 @@
 		</div>
 	</section>
 
+	<section class="slider swiper">
 
+		<div class="wrapper swiper-wrapper">
+			<div class="slider__slide swiper-slide">
+				<img src="img/icon/slider_icon/slider_icon_01.png" alt="" class="slider__icon">
+				<div class="slider__text">
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus dicta dolorum sed pariatur quia
+					veritatis, aut vel repellat illo quo officia reprehenderit facere quisquam recusandae sequi amet porro!"
+
+					<p>Jon Doe</p>
+				</div>
+			</div>
+			<div class="slider__slide swiper-slide">
+				<img src="img/icon/slider_icon/slider_icon_01.png" alt="" class="slider__icon">
+				<div class="slider__text">
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus dicta dolorum sed pariatur quia
+					veritatis, aut vel repellat illo quo officia reprehenderit facere quisquam recusandae sequi amet porro!"
+
+					<p>Jon Doe</p>
+				</div>
+			</div>
+			<div class="slider__slide swiper-slide">
+				<img src="img/icon/slider_icon/slider_icon_01.png" alt="" class="slider__icon">
+				<div class="slider__text">
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus dicta dolorum sed pariatur quia
+					veritatis, aut vel repellat illo quo officia reprehenderit facere quisquam recusandae sequi amet porro!"
+
+					<p>Jon Doe</p>
+				</div>
+			</div>
+			<div class="slider__slide swiper-slide">
+				<img src="img/icon/slider_icon/slider_icon_01.png" alt="" class="slider__icon">
+				<div class="slider__text">
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus dicta dolorum sed pariatur quia
+					veritatis, aut vel repellat illo quo officia reprehenderit facere quisquam recusandae sequi amet porro!"
+
+					<p>Jon Doe</p>
+				</div>
+			</div>
+			<div class="slider__slide swiper-slide">
+				<img src="img/icon/slider_icon/slider_icon_01.png" alt="" class="slider__icon">
+				<div class="slider__text">
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus dicta dolorum sed pariatur quia
+					veritatis, aut vel repellat illo quo officia reprehenderit facere quisquam recusandae sequi amet porro!"
+
+					<p>Jon Doe</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-pagination"></div>
+		<div class="swiper-pagination-bullet"></div>
+
+	</section>
 
 
 
@@ -256,6 +322,8 @@
 
 
 	@@include('_footer.html')
+	<!-- Connection Swiper -->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	<!-- Connection jQuery -->
 	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
 		integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
