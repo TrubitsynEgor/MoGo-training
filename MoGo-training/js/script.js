@@ -1,5 +1,5 @@
 function testWebP(callback) {
-	var webP = new Image();
+	let webP = new Image();
 	webP.onload = webP.onerror = function () {
 		callback(webP.height == 2);
 	};
@@ -48,3 +48,4 @@ new Swiper('.slider', {
 		clickable: true,
 	}
 });
+
