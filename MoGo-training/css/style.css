@@ -802,6 +802,309 @@ body {
   height: 16px;
 }
 
+.team {
+  text-align: center;
+}
+
+.team__subtitle {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 100px 0px 10px 0px;
+}
+
+.team__title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0px 0px 80px 0px;
+  position: relative;
+}
+
+.team__title::after {
+  content: "";
+  position: absolute;
+  left: 47.4%;
+  top: 200%;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.team__text {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  padding: 0px 100px 0px 100px;
+  margin: 0px 0px 60px 0px;
+}
+
+.team__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team__img {
+  position: relative;
+}
+
+.team__img:hover {
+  -webkit-box-shadow: 2px 2px 20px 10px #95e1d3;
+          box-shadow: 2px 2px 20px 10px #95e1d3;
+}
+
+.team__social {
+  position: absolute;
+  top: 45%;
+  background-color: #fce38a;
+  padding: 10px;
+}
+
+.facebook {
+  left: 30%;
+  background-color: #f38181;
+  padding: 10px 15px 10px 10px;
+}
+
+.twiter {
+  left: 40%;
+  padding: 10px 10px 14px 10px;
+}
+
+.pinterest {
+  left: 50%;
+}
+
+.instagram {
+  left: 60%;
+}
+
+.team__card-title {
+  line-height: 1.2;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 30px 0px 0px 0px;
+}
+
+.team__card-text {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  margin: 0px 0px 100px 0px;
+}
+
+.labels {
+  height: 250px;
+  background-color: #f8f8f8;
+}
+
+.labels__img {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galery {
+  text-align: center;
+}
+
+.galery__subtitle {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 100px 0px 10px 0px;
+}
+
+.galery__title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0px 0px 80px 0px;
+  position: relative;
+}
+
+.galery__title::after {
+  content: "";
+  position: absolute;
+  top: 200%;
+  left: 48.7%;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.galery__text {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #999999;
+  margin: 0px auto 60px auto;
+  width: 900px;
+}
+
+.galery__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.galery__box-two {
+  position: relative;
+}
+
+.galery__inner-box {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+.inner-box__title {
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 15px 0px 10px 0px;
+}
+
+.inner-box__text {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.slider__two {
+  height: 440px;
+  background-color: #ffffff;
+}
+
+.slider__icon_two {
+  border: none;
+}
+
+.slider__text_two {
+  margin: 70px 0px 0px 0px;
+  padding: 0px 50px 0px 0px;
+}
+
+.no-webp .coments {
+  background-image: url(../img/coments_back_img.png); }
+
+.coments {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.coments__subtitle {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 100px 0px 10px 0px;
+  text-align: center;
+}
+
+.coments__title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  position: relative;
+  margin: 0px 0px 80px 0px;
+  text-align: center;
+}
+
+.coments__title::after {
+  content: "";
+  position: absolute;
+  left: 48.2%;
+  top: 200%;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.coments__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.coments__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 0px 0px 30px;
+}
+
+.coments__cards-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+}
+
+.coments__cards-title {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0px 0px 5px 0px;
+}
+
+.coments__cards-subtitle {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #333333;
+  padding: 0px 0px 40px 0px;
+  position: relative;
+}
+
+.coments__cards-subtitle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 65%;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.coments__cards-text {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #999999;
+}
+
 @media (max-width: 1046px) {
   .logo {
     -webkit-box-flex: 0;
@@ -1064,6 +1367,35 @@ body {
   .swiper-button-next::after {
     right: 25px;
   }
+
+  .team__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .team__card-title {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .team__card-text {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .galery__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .galery__box img {
+    margin: 0px 0px 10px 0px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1163,3 +1495,5 @@ body {
 .webp .intro { background-image: url(../img/main_back.webp); }
 
 .webp .design { background-image: url(../img/design_background.webp); }
+
+.webp .coments { background-image: url(../img/coments_back_img.webp); }
