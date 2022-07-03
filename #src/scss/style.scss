@@ -26,15 +26,42 @@ body {
 	color: #333333;
 	line-height: 1.6;
 	font-weight: 400;
-
+	overflow-x: hidden;
 }
-
 .wrapper{
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto;	
+}
+.title{
+	font-size: 30px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #333333;
+text-align: center;
+margin: 0px 0px 100px 0px;
+position: relative;
+}
+.title::after{
+	content: '';
+	width: 60px;
+height: 3px;
+background-color: #f38181;
+left: 48%;top: 200%;
+position: absolute;
 	
 }
+.subtitle{
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+	line-height: 1.2;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+	padding: 100px 0px 10px 0px;
+	
+}
+
 
 .intro {
 	width: 100%;
@@ -45,16 +72,12 @@ body {
 
 .intro__box {
 	display: flex;
-
 	align-items: center;
 	flex-direction: column;
 	padding: 160px 50px 0px 50px;
-	
-
 }
 .intro__subtitle {
-
-	font-family: 'Kaushan Script';
+font-family: 'Kaushan Script';
 font-size: 72px;
 line-height: 1.2;
 padding: 0px 0px 40px 0px;
@@ -115,9 +138,6 @@ margin: 120px 0px 0px 0px;
 	position: relative;
 	padding: 15px 0px 0px 0px;
 	margin: 0 auto;
-	
-
-	
 }
 .slider__item span{
 	font-size: 18px;
@@ -148,34 +168,8 @@ top: 0;left: 0;
 	display: flex;
 flex-direction: column;
 text-align: center;
-
-
-
-
 }
-.about__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-margin: 80px 0px 10px 0px;
 
-}
-.about__title {
-	font-size: 30px;
-line-height: 1.2;
-font-weight: 700;
-margin: 0px 0px 80px 0px;
-position: relative;
-}
-.about__title::after{
-	content: '';
-	width: 60px;
-height: 3px;
-background-color: #f38181;
-left: 48%;top: 200%;
-position: absolute;
-	
-}
 .about__text {
 	font-family: Roboto;
 font-size: 15px;
@@ -183,8 +177,6 @@ line-height: 24px;
 width: 75%;
 color: #999999;
 margin: 0px auto 100px auto;
-
-
 }
 .about__galery {
 	display: flex;
@@ -204,9 +196,6 @@ position: absolute;
 left: 35%;top: 42%;
 
 }
-.about__icon {
-
-}
 .about__lable-text {
 	font-size: 18px;
 line-height: 1.2;
@@ -219,15 +208,12 @@ color: #ffffff;
 	height: 270px;
 	background-color: #95e1d3;
 }
-
 .statistic__box {
 	height: 270px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	border-left: 1px solid rgba(255, 255, 255, .3);
-
-
 }
 .statistic__box-item {
 	height: 100%;
@@ -240,20 +226,16 @@ flex: 0 1 20%;
 border-right: 1px solid rgba(255, 255, 255, .3);
 text-align: center;
 }
-
 .statistic__box-item span{
 margin: 70px 0px 10px 0px;
-
-	font-size: 72px;
+font-size: 72px;
 line-height: 1.2;
 font-weight: 700;
 color: #ffffff;
-
 }
 .statistic__box-item p {
 	font-size: 14px;
 line-height: 1.2;
-
 text-transform: uppercase;
 color: #ffffff;
 }
@@ -263,31 +245,8 @@ color: #ffffff;
 	height: 650px;
 }
 
-.services__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-text-align: center;
-margin: 140px 0px 10px 0px;
 
 
-}
-.services__title {
-	font-size: 30px;
-line-height: 1.2;
-font-weight: 700;
-text-align: center;
-position: relative;
-}
-.services__title::after{
-content: '';
-position: absolute;
-width: 60px;
-height: 3px;
-background-color: #f38181;
-left: 47.4%;top: 250%;
-
-}
 .services__box {
 display: flex;
 flex-wrap:wrap;
@@ -308,13 +267,6 @@ background-color: #e5e5e5;
 	display: flex;
 	margin: 0px 0px 120px 0px;
 	
-
-	
-	
-}
-.services__card-icon {
-
-
 }
 .services__inner-box{
 	margin: 0px 0px 0px 20px;
@@ -324,15 +276,12 @@ background-color: #e5e5e5;
 	line-height: 1.2;
 font-weight: 700;
 margin: 0px 0px 10px 0px;
-
-	
 }
 .services__card-text {
 	font-family: Roboto;
 font-size: 15px;
 line-height: 24px;
 padding: 0px 10px 0px 0px;
-
 color: #999999;
 }
 
@@ -344,49 +293,12 @@ color: #999999;
 	background-image: url(../img/design_background.jpg);
 background-size: cover;
 }
-.design__titles{
-display: flex;
-flex-direction: column;
-
-}
-
-.design__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-font-weight: 400;color: #333333;
-margin: 65px auto 20px auto;
-display: inline-block;
-text-align: center;
-
-}
-.design__title {
-	font-size: 30px;
-line-height: 1.2;
-font-weight: 700;
-text-align: center;
-position: relative;
-margin: 0px 0px 120px 0px;
-
-}
-.design__title::after{
-	content: '';
-	position: absolute;
-	width: 60px;
-	height: 3px;
-	background-color: #f38181;
-	left: 48.8%;top: 250%;
-}
-
-
 .design__images{
 	max-width: 100%;
 	height: auto;
 	position: relative;
-	left: 37%;top: 0;
-
+	left: 37%;top: 6%;
 }
-
 .design__inner-img{
 	max-width: 100%;
 	height: auto;
@@ -400,49 +312,13 @@ margin: 0px 0px 120px 0px;
 	height: 89vh;
 	width: 100%;
 }
-.work__titles {
-	margin: 120px 0px 0px 0px;
-text-align: center;
-	
-	
-
-}
-.work__subtitles {
-	font-family: 'Kaushan Script';
-	font-size: 24px;
-	line-height: 1.2;
-	margin: 0px 0px 10px 0px;
-	
-}
-.work__title {
-	font-size: 30px;
-	line-height: 1.2;
-	font-weight: 700;
-	position: relative;
-	margin: 0px 0px 80px 0px;
-	
-}
-.work__title::after{
-	content: '';
-	width: 60px;
-height: 3px;
-background-color: #f38181;
-position: absolute;
-left: 47.5%;top: 200%;
-	
-}
 .work__text {
 	font-family: Roboto;
 font-size: 15px;
 line-height: 24px;
 padding: 0px 7em 0px 7em;
 margin: 0px 0px 80px 0px;
-
-
-
 color: #999999;
-}
-.work__img {
 }
 .work__box{
 	display: flex;
@@ -453,8 +329,6 @@ color: #999999;
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	
-	
 }
 .work__spoiler-item{
 	border: 1px solid #e5e5e5;
@@ -462,13 +336,10 @@ color: #999999;
 	
 }
 .work__spoiler-up{
-
-	
 	border: 1px solid #e5e5e5;
 	padding: 15px;
 }
-.work__icon {
-}
+
 .work__btn{
 	position: relative;
 font-weight: 700;
@@ -476,13 +347,7 @@ font-weight: 700;
 	background-color: white;
 	margin: 0px 0px 0px 10px;
 	line-height: 30px;
-	
-
-	
-
-	
 }
-
 .work__btn::after{
 	display: block;
 content: '';
@@ -546,24 +411,13 @@ transition: all 0.3s ease 0s;
 	position: relative;
 
 }
-.swiper {
-
-}
-
-.swiper-wrapper {
-}
 .slider__slide {
 	display: flex;
 padding: 80px 0px 80px 80px;
 }
-.swiper-slide {
-	
-}
 .slider__icon {
 	border: 3px solid #95e1d3;
 	padding: 40px;
-
-	
 }
 .slider__text {
 	padding: 0px 0px 0px 40px;
@@ -620,27 +474,6 @@ height: 16px;
 text-align: center;
 }
 
-.team__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-margin: 100px 0px 10px 0px;
-}
-.team__title {
-	font-size: 30px;
-line-height: 1.2;
-font-weight: 700;
-margin: 0px 0px 80px 0px;
-position: relative;
-}
-.team__title::after{
-content: '';
-position: absolute;
-left: 47.4%;top: 200%;
-width: 60px;
-height: 3px;
-background-color: #f38181;
-}
 .team__text {
 	font-family: Roboto;
 font-size: 15px;
@@ -654,15 +487,12 @@ margin: 0px 0px 60px 0px;
 	display: flex;
 justify-content: space-between;
 }
-.team__item {
-}
 .team__img {
 	position: relative;
 }
 .team__img:hover{
 	box-shadow:  2px 2px 20px 10px #95e1d3;
 }
-
 .team__social{
 	position: absolute;
 	top: 45%;
@@ -685,7 +515,6 @@ justify-content: space-between;
 .instagram{
 	left: 60%;
 }
-
 .team__card-title {
 line-height: 1.2;
 font-weight: 600;
@@ -719,29 +548,6 @@ align-items: center;
 .galery {
 text-align: center;
 }
-.galery__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-margin: 100px 0px 10px 0px;
-
-}
-.galery__title {
-	font-size: 30px;
-line-height: 1.2;
-font-weight: 700;
-margin: 0px 0px 80px 0px;
-position: relative;
-}
-.galery__title::after{
-	content: '';
-	position: absolute;
-	top: 200%;left: 48.7%;
-	width: 60px;
-height: 3px;
-background-color: #f38181;
-
-}
 .galery__text {
 	font-family: Roboto;
 font-size: 15px;
@@ -750,7 +556,6 @@ font-weight: 400;
 color: #999999;
 margin: 0px auto 60px auto;
 width: 900px;
-
 }
 .galery__box {
 display: flex;
@@ -804,31 +609,6 @@ color: #ffffff;
 	background-size: cover;
 
 }
-.coments__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-font-weight: 400;
-padding: 100px 0px 10px 0px;
-text-align: center;
-}
-.coments__title {
-	font-size: 30px;
-	line-height: 1.2;
-	font-weight: 700;
-position: relative;
-margin: 0px 0px 80px 0px;
-text-align: center;
-}
-.coments__title::after{
-	content: '';
-position: absolute;
-left: 48.2%;top: 200%;
-width: 60px;
-height: 3px;
-background-color: #f38181;
-	
-}
 .coments__box {
 	display: flex;
 	flex-wrap: wrap;
@@ -837,19 +617,14 @@ background-color: #f38181;
 	display: flex;
 	flex-direction: column;
 	padding: 0px 0px 0px 30px;
-	
-
 }
-
 .coments__cards-item {
 	flex: 1 0 50%;
 	display: flex;
 	padding: 50px;
 	
 }
-.coments__cards-img {
 
-}
 .coments__cards-title {
 	font-size: 14px;
 line-height: 1.2;
@@ -888,31 +663,7 @@ color: #999999;
 .blog {
 	height: 80vh;
 }
-.blog__subtitle {
-	font-family: 'Kaushan Script';
-font-size: 24px;
-line-height: 1.2;
-font-weight: 400;
-margin: 100px 0px 10px 0px;
-text-align: center;
-}
-.blog__title {
-	font-size: 30px;
-line-height: 1.2;
-font-weight: 700;
-position: relative;
-text-align: center;
-margin: 0px 0px 90px 0px;
 
-}
-.blog__title::after{
-	content: '';
-	position: absolute;
-	left: 47.6%;top: 200%;
-	width: 60px;
-height: 3px;
-background-color: #f38181;
-}
 .blog__box {
 	display: flex;
 	
@@ -991,7 +742,7 @@ font-size: 15px;
 font-style: italic;
 color: #999999;
 }
-
+//*================> section__map
 .map {
 	width: 100%;
 	height: 200px;

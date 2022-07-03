@@ -151,7 +151,7 @@ margin: 0 auto;
 	
 }
 .design__images{
-	left: 20%;top: 15.5%;
+	left: 20%;top: 14%;
 }
 .design__inner-img{
 	left: 36%;
@@ -213,7 +213,39 @@ font-size: 14px;
 		margin: 0px 0px 10px 0px;
 		
 	}
+	.slider__two .slider__text p::before{
+		left: -20%;
+	}
+	.blog{
+		height: 130%;
+	}
+	.blog__box{
+		margin: 0px 0px 0px 100px;
+		
+		flex-wrap: wrap;
+		justify-content: center;
+		
+	}
+	.footer{
+		height: 100%;
+	}
+	.footer__box{
+		justify-content: center;
+		flex-wrap: wrap;	
+	
+	}
+.footer__box-item_2,
+.footer__box-item_3{
+	order: -1;
+}
+.footer__box-item_1{
+margin: auto 40px;
 
+	
+}
+.copyright{
+	left: 30%;
+}
 }
 @media (max-width: 576px) {
 	.burger{
